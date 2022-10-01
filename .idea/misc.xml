@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/drawable/custom_button.xml" value="0.2435" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/drawable/ic_arrow_round_forward_1.xml" value="0.2435" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.2435" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2435" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/activity_destination.xml" value="0.19990933816863102" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/activity_main.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/activity_start_screen.xml" value="0.18449682683590207" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/content_start_screen.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/fragment_first.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/fragment_second.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/chint/AndroidStudioProjects/Campus_Wayfinder/app/src/main/res/layout/splash_activity.xml" value="0.17076502732240437" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
