@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CampusWayFinder</string>
+    <string name="app_name">CampusWF</string>
+    <string name ="startIndoorStage">Start Indoor Stage</string>
+    <string name ="youArrived">You Have Arrived!</string>
 </resources>
