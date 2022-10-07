@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            intent = new Intent(SplashActivity.this, StartIndoorActivity.class);
+            intent = new Intent(SplashActivity.this, StartActivity.class);
         }
 
         @Override

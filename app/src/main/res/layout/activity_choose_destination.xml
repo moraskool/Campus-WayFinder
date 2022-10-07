@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".StartIndoorActivity">
+
+    <FrameLayout
+        android:id="@+id/imageFrameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/calstate_ash_white">
+
+        <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Walking Image"
+                app:srcCompat="@drawable/walk_placeholder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textLayout"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="298dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="@string/chooseDestination"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dashLayout"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dashView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dash_image"
+                app:srcCompat="@drawable/dash_placeholder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="80dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chooseDestinationButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/calstate_yellow"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="@string/goTo"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:typeface="normal"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

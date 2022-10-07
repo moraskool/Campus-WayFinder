@@ -2,4 +2,8 @@
     <string name="app_name">CampusWF</string>
     <string name ="startIndoorStage">Start Indoor Stage</string>
     <string name ="youArrived">You Have Arrived!</string>
+    <string name ="findYourWay">Find your way around campus</string>
+    <string name ="goTo">Go</string>
+    <string name ="chooseDestination">Choose your destination</string>
+    <string name="dash_image">Dash Image</string>
 </resources>
