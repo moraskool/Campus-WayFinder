@@ -35,10 +35,6 @@
             android:windowSoftInputMode="adjustPan"
             android:exported="true"
             android:theme="@style/Theme.CampusWayFinder">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
         <activity
@@ -51,6 +47,10 @@
             android:name=".StartActivity"
             android:theme="@style/Theme.CampusWayFinder"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
 
         <activity
