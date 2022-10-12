@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.campuswayfinder">
-
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <!-- Limits app visibility in the Google Play Store to ARCore supported devices
-     (https://developers.google.com/ar/devices). -->
-    <uses-feature android:name="android.hardware.camera.ar" />
+    package="com.example.campus_wayfinder">
 
     <application
         android:allowBackup="true"
@@ -17,39 +11,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CampusWayFinder"
+        android:theme="@style/Theme.Campus_Wayfinder"
         tools:targetApi="31">
-
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/SplashTheme"
+            android:name=".ByLandmark"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ByLocation"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".destination"
+            android:exported="false" />
+        <activity
+            android:name=".start_screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".StartIndoorActivity"
-            android:windowSoftInputMode="adjustPan"
-            android:exported="true"
-            android:theme="@style/Theme.CampusWayFinder">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".ArrivedActivity"
-            android:theme="@style/Theme.CampusWayFinder"
-            android:exported="true">
-        </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
