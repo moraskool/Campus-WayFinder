@@ -3,7 +3,7 @@
 
     <item android:drawable="@color/calstate_yellow"/>
     <item
-        android:drawable="@drawable/ic_launcher_foreground"
+        android:drawable="@drawable/ic_launcher_icon"
         android:gravity="center">
     </item>
 

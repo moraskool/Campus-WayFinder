@@ -6,4 +6,9 @@
     <string name ="goTo">Go</string>
     <string name ="chooseDestination">Choose your destination</string>
     <string name="dash_image">Dash Image</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="one">One</string>
+    <string name="three">Three</string>
+    <string name="two">Two</string>
 </resources>

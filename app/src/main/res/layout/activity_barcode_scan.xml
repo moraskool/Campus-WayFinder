@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".CustomScannerActivity">
+
+   <FrameLayout
+       android:id="@+id/imageFrameContainer"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/calstate_ash_white">
+
+      <com.journeyapps.barcodescanner.DecoratedBarcodeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="50dp"
+          android:layout_marginRight="50dp"
+          android:layout_marginTop="150dp"
+          android:layout_marginBottom="150dp"
+          android:id="@+id/zxing_barcode_scanner"
+          app:zxing_use_texture_view="false"
+          app:zxing_preview_scaling_strategy="fitXY"/>
+
+      <LinearLayout
+          android:id="@+id/dashLayout"
+          android:layout_width="50dp"
+          android:layout_height="25dp"
+          android:layout_gravity="bottom"
+          android:layout_marginStart="170dp"
+          android:layout_marginBottom="80dp"
+          android:orientation="vertical">
+
+         <ImageView
+             android:id="@+id/dashView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:contentDescription="@string/dash_image"
+             app:srcCompat="@drawable/dash_placeholder" />
+      </LinearLayout>
+
+   </FrameLayout>
+
+</RelativeLayout>

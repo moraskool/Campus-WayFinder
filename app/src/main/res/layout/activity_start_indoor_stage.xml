@@ -46,7 +46,8 @@
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:typeface="normal"
-                app:cornerRadius="10dp" />
+                app:cornerRadius="10dp"
+                android:onClick="scanBarcode"/>
         </LinearLayout>
 
     </FrameLayout>
