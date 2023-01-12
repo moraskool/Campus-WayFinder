@@ -20,9 +20,8 @@ import java.util.Objects;
 public class StartIndoorActivity extends AppCompatActivity  {
 
     private String scannedLocationName;
-    public static final String SCANNED_LOCATION = "loc";
-    public static final String LIB_BASE_001 = "Lib-Basement RM001";
-    public static final String LIB_BASE_002 = "Lib-Basement RM002";
+    public static final String SCANNED_LOCATION = "sca";
+    boolean isUnityARLoaded = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +44,7 @@ public class StartIndoorActivity extends AppCompatActivity  {
                     scannedLocationName = result.getContents();
 
                     if (scannedLocationName.length() > 1) {
-                        StartIndoorProcess(scannedLocationName);
+                        StartIndoorProcess();
                     }
                     else{
                         Toast.makeText(StartIndoorActivity.this, "Path not Found.", Toast.LENGTH_LONG).show();
@@ -61,10 +60,21 @@ public class StartIndoorActivity extends AppCompatActivity  {
         options.setCaptureActivity(CustomScannerActivity.class);
         barcodeLauncher.launch(new ScanOptions());
     }
-
-    private void StartIndoorProcess(String locationName) {
-        Intent intent = new Intent(getApplicationContext(), ArNavigationActivity.class);
-        intent.putExtra(SCANNED_LOCATION, locationName);
+    private void StartIndoorProcess() {
+        isUnityARLoaded = true;
+        Intent intent = new Intent(getApplicationContext(), UnityARActivity.class); // call unityactivity here
+        intent.putExtra(SCANNED_LOCATION, scannedLocationName);
         startActivity(intent);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) isUnityARLoaded = false;
+    }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
     }
 }

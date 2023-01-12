@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/drawable-v24/ic_arrow.xml" value="0.1075" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.224" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.224" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/drawable/ic_launcher_icon_background.xml" value="0.215" />
@@ -12,13 +13,22 @@
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/font/montserrat_alternates_medium.xml" value="0.264" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/font/montserrat_alternates_semibold.xml" value="0.264" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_ar_home.xml" value="0.25" />
-        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_ar_view.xml" value="0.1" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_ar_view.xml" value="0.264" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_arrived.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_barcode_scan.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination.xml" value="0.264" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination_cafe.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination_new.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination_old.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_choose_destination_sub.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_indoor_selection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_libraries.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_outdoor.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_start.xml" value="0.1897810218978102" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/activity_start_indoor_stage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/list_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/layout/splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/menu/abc.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/moras/AndroidStudioProjects/CampusWayFinder/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />

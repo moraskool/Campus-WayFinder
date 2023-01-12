@@ -2,6 +2,7 @@
     <string name="app_name">CampusWF</string>
     <string name ="startIndoorStage">Start Indoor Stage</string>
     <string name ="youArrived">You Have Arrived!</string>
+    <string name ="placeholder">Under Construction</string>
     <string name ="findYourWay">Find your way around campus</string>
     <string name ="goTo">Go</string>
     <string name ="chooseDestination">Choose your destination</string>
@@ -11,4 +12,116 @@
     <string name="one">One</string>
     <string name="three">Three</string>
     <string name="two">Two</string>
+
+    <string name="game_view_content_description">Game view</string>
+
+    <string name="lecture_halls">Lecture Halls</string>
+    <string name="lecture_halls_01">SBH358</string>
+    <string name="lecture_halls_02">FA246</string>
+
+    <string name="libraries">Libraries</string>
+    <string name="parking_lots">Parking Lots</string>
+
+    <string name="cafeterias">Cafeterias</string>
+    <string name="cafeteria_1">Cafe47</string>
+    <string name="cafeteria_2">EveryTable/Lib</string>
+    <string name="cafeteria_3">FoodCourt</string>
+
+    <string name="offices">Offices</string>
+    <string name="offices_1">Student Union Building</string>
+    <string name="offices_2">Student Service Center</string>
+    <string name="navigating_to">Navigating to</string>
+
+    <string-array name="Lecture_Halls">
+        <item>Martin Luther King Hall</item>
+        <item>Salazr Hall</item>
+        <item>M. Rosser Hall</item>
+        <item> Kretz Hall</item>
+    </string-array>
+    <string-array name="Parking_Lots">
+        <item>Parking Structure A</item>
+        <item>Parking Structure B</item>
+        <item>Parking Structure C</item>
+        <item>Parking Lot 1</item>
+        <item>Parking Lot 1A</item>
+        <item>Parking Lot 2</item>
+        <item>Parking Lot 3</item>
+        <item>Parking Lot 4</item>
+        <item>Parking Lot 5</item>
+        <item>Parking Lot 6</item>
+        <item>Parking Lot 7</item>
+        <item>Parking Lot 7A</item>
+        <item>Parking Lot 8</item>
+        <item>Parking Lot 9</item>
+        <item>Parking Lot 10</item>
+        <item>Parking Lot 11</item>
+    </string-array>
+    <string-array name="Cafeterias">
+        <item>StarBucks</item>
+        <item>Golden Eagle Dining</item>
+        <item>Student Union Dining</item>
+        <item>Golden Eagle Food Court</item>
+    </string-array>
+    <string-array name="Offices">
+        <item>Administration</item>
+        <item>Student Services</item>
+        <item>University Student Union</item>
+        <item>Admissions</item>
+        <item>Student Affairs(SA)</item>
+        <item>Alumini Center</item>
+        <item>Career Center(CC)</item>
+        <item>Student Health Center(SHC)</item>
+        <item>Public Safety/Parking/Transportation Service Center</item>
+    </string-array>
+    <string-array name="Libraries">
+        <item>John F. Kennedy Memorial Library</item>
+        <item>John F. Kennedy Memorial Library - Palmer Wing</item>
+        <item>Golden Eagle BookStore</item>
+    </string-array>
+    <string-array name="JFKM_Depts">
+        <item>Library Service Desk @JFKMLibrary</item>
+        <item>Smart Start @JFKMLibrary</item>
+        <item>Cafe 47 @JFKMLibrary</item>
+        <item>Everyday Table @JFKMLibrary</item>
+        <item>Research Assistance @JFKMLibrary</item>
+        <item>Academic Advisement Center (1040A)/ Teacher Prep Advisement @JFKMLibrary</item>
+        <item>Student Support Program (1040C) @JFKMLibrary</item>
+        <item>Center for Academic Success Tutoring Wing (1039) @JFKMLibrary</item>
+        <item>Center for Academic Success Writing Wing (1039A) @JFKMLibrary</item>
+        <item>Accessible Technology Learning Center(1080) @JFKMLibrary</item>
+    </string-array>
+    <string-array name="JFKM_Staff">
+        <item>ITS Help Desk @JFKMLibrary</item>
+        <item>Information Technology Services(ITS) Office (1070) @JFKMLibrary</item>
+        <item>Exhibit 1 @JFKMLibrary</item>
+        <item>Exhibit 2 @JFKMLibrary</item>
+        <item>Exhibit 3 @JFKMLibrary</item>
+        <item>1018 @JFKMLibrary</item>
+        <item>1018A @JFKMLibrary</item>
+        <item>1025A @JFKMLibrary</item>
+        <item>1025B @JFKMLibrary</item>
+        <item>1025C @JFKMLibrary</item>
+        <item>1043-1044 @JFKMLibrary</item>
+        <item>1045-1046 @JFKMLibrary</item>
+        <item>1047 @JFKMLibrary</item>
+        <item>1049-1058 @JFKMLibrary</item>
+        <item>1062A @JFKMLibrary</item>
+    </string-array>
+    <string-array name="JFKM_Others">
+        <item>Restrooms @JFKMLibrary</item>
+        <item>Computers @JFKMLibrary</item>
+        <item>Elevators @JFKMLibrary</item>
+        <item>Stairs @JFKMLibrary</item>
+        <item>Book Return @JFKMLibrary</item>
+        <item>Scanners @JFKMLibrary</item>
+        <item>One Card Money Load @JFKMLibrary</item>
+        <item>Printers @JFKMLibrary</item>
+    </string-array>
+    <string-array name="JFKM_Exits">
+        <item>Emergency Exit 1 @JFKMLibrary</item>
+        <item>Emergency Exit 2 @JFKMLibrary</item>
+        <item>Emergency Exit 3 @JFKMLibrary</item>
+        <item>Emergency Exit 4 @JFKMLibrary</item>
+    </string-array>
+
 </resources>

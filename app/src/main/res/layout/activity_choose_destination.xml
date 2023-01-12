@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StartIndoorActivity">
+    tools:context=".ChooseDestinationActivity">
 
     <FrameLayout
         android:id="@+id/imageFrameContainer"
@@ -44,48 +44,123 @@
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="25sp" />
-
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/dashLayout"
-            android:layout_width="50dp"
-            android:layout_height="25dp"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="180dp"
-            android:layout_marginBottom="10dp"
+            android:id="@+id/textLayout2"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="365dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/dashView"
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/dash_image"
-                app:srcCompat="@drawable/dash_placeholder" />
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view"
+                android:hint="Select an Option"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:gravity="center_vertical"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="@color/calstate_ash_white"/>
+
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/progressLayout"
-            android:layout_width="250dp"
-            android:layout_height="55dp"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="80dp"
-            android:layout_marginBottom="30dp"
-            android:orientation="horizontal">
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center">
             <Button
-                android:id="@+id/chooseDestinationButton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btn1"
                 android:backgroundTint="@color/calstate_yellow"
                 android:fontFamily="@font/montserrat_alternates_semibold"
-                android:text="@string/goTo"
+                android:text="@string/libraries"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:typeface="normal"
+                app:cornerRadius="10dp"/>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btn2"
+                android:backgroundTint="@color/calstate_yellow"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="@string/cafeterias"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:typeface="normal"
                 app:cornerRadius="10dp" />
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="505dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btn3"
+                android:backgroundTint="@color/calstate_yellow"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="@string/offices"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:typeface="normal"
+                app:cornerRadius="10dp"/>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btn4"
+                android:backgroundTint="@color/calstate_yellow"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="@string/parking_lots"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:typeface="normal"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btn5"
+                android:backgroundTint="@color/calstate_yellow"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="@string/lecture_halls"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:typeface="normal"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+
+
+
+
 
     </FrameLayout>
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
